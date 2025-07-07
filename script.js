@@ -14,7 +14,7 @@ let generate;
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const prompt = promptInput.value;
-  if (!generate) return alert("Modelo ainda carregando, aguarde...");
+  if (!generate) return alert("Model still loading, please wait...");
   const image = await generate(prompt);
   const ctx = canvas.getContext("2d");
   canvas.width = image.width;
