@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  border-radius: 8px;
+  border: none;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #00b894;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+canvas {
+  margin-top: 20px;
+  border: 2px solid #fff;
+  max-width: 512px;
+}
