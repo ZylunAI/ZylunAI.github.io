@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stable Diffusion Turbo</title>
+  <title>Stable Diffusion Turbo (Web)</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>🎨 AI Image Generation</h1>
-    <form id="form">
-      <input type="text" id="prompt" placeholder="Descreva a imagem..." />
-      <button type="submit">Generate Image</button>
-    </form>
-    <p id="status">Waiting for prompt...</p>
+    <h1>🎨 AI Image Generator</h1>
+    <div class="form">
+      <input type="text" id="prompt" placeholder="Describe your image..." />
+      <button id="generate">Generate</button>
+    </div>
+    <p id="status">Loading model...</p>
     <canvas id="canvas"></canvas>
   </div>
   <script type="module" src="app.js"></script>
 </body>
 </html>
+
