@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stable Diffusion Turbo – Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧠 Stable Diffusion Web</h1>
+  <form id="promptForm">
+    <input type="text" id="prompt" placeholder="Digite seu prompt..." required />
+    <button type="submit">Gerar</button>
+  </form>
+  <div id="output">
+    <canvas id="canvas"></canvas>
+  </div>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
